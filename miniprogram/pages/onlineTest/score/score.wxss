@@ -1,0 +1,26 @@
+/* miniprogram/pages/onlineTest/score/score.wxss */
+.header{
+  width:100%;
+  text-align:center;
+  height:280rpx;
+  background:#fff;
+}
+.header{
+  padding-top:65rpx;
+}
+.statistics{
+  display:flex;
+  margin-top:25px;
+}
+.word{
+  width:50%;
+  font-size:32rpx;
+}
+.beatNum{
+  margin-top:10rpx;
+  font-size:40rpx;
+}
+.buttoms{
+  display: flex;
+  justify-content: space-around
+}

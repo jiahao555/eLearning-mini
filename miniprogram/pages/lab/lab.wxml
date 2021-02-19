@@ -1,0 +1,60 @@
+<view class='content'>  
+  <view class='content-item' >
+    <view class='content-item-text'>
+      <text>实验课件</text>
+    </view>
+  </view>
+  <view class='content-item' >
+    <view class='content-item-text'>
+      <text>指导视频</text>
+    </view>
+  </view>
+  <view class='content-item' >
+    <view class='content-item-text'>
+      <text>虚拟仿真</text>
+    </view>
+  </view>
+  
+  <view  class='content-item' >
+    <view class='content-item-text'>
+      <text>仪器使用</text>
+    </view>
+  </view>
+</view>
+
+<!-- <view class='testContent'>
+  <view class='testContent-item'>
+    <view class='testContent-item-text'>
+      <text>实验课件</text>
+    </view>
+  </view>
+  <view class='testContent-item'>
+    <view class='testContent-item-text'>
+      <text>实验课件</text>
+    </view>
+  </view>
+  <view class='testContent-item'>
+    <view class='testContent-item-text'>
+      <text>实验课件</text>
+    </view>
+  </view>
+  <view class='testContent-item'>
+    <view class='testContent-item-text'>
+      <text>实验课件</text>
+    </view>
+  </view>
+</view> -->
+
+<view class='list-item' wx:for="{{listItems}}">
+  <view class='list-item-images'>
+    <image src='../../images/shiboqi2.jpg'></image>
+  </view>
+  <view class='list-item-text'>
+    <view class='list-item-text-title'>
+      <text>示波器</text>
+    </view>
+    <view class='list-item-text-content'>
+      <text>利用示波器能观察各种不同信号幅度随时间变化的波形曲线，还可以用它测试各种不同的电量，如电压、电流、频率、相位差、调幅度等等。</text>
+    </view>
+  </view>
+</view>

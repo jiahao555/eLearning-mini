@@ -1,0 +1,70 @@
+/* miniprogram/pages/ask/ask.wxss */
+.avatar image{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50rpx;
+  position: absolute;
+  left: 20rpx;
+  top: 20rpx;
+}
+
+.avatar{
+  position: relative
+}
+.nickname{
+  position: absolute;
+  top:30rpx;
+  left: 100rpx;
+  font-size: 35rpx
+}
+.onePost{
+  position: relative;
+  border-bottom: 3px solid #ddd;
+}
+.userInfo{
+  height: 90rpx
+}
+.content{
+  margin-left: 2%;
+  margin-right: 2%
+}
+
+.con{
+  color:  rgb(117, 109, 109)
+}
+
+.btns{
+  width: 50rpx;
+  height: 40rpx;
+}
+.ml10{
+  color: rgb(148, 144, 144);
+  position: relative;
+  bottom: 10rpx
+}
+.comment{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2%;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.time{
+  margin-top: 30rpx;
+  margin-right: 2rpx;
+  font-size: 35rpx;
+  color: rgb(117, 109, 109)
+}
+.posiFix{
+  position: fixed;
+  bottom: 30rpx;
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+.addIcon{
+  width: 60rpx;
+  height: 60rpx;
+}

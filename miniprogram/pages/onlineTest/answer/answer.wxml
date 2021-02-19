@@ -1,0 +1,28 @@
+<!--miniprogram/pages/onlineTest/answer/answer.wxml-->
+<!-- 题目 -->
+<view class='question'>
+  <i-tag class="i-tags" name="单选" type="border" color="#2e5e86">
+    单选
+  </i-tag>
+  <text class='question-title'>{{indexQuestion.title}}</text>
+</view>
+<!-- 选项卡 -->
+<radio-group class="radio-group" bindchange="radioChange">
+  <label class="radio" wx:for="{{chooseList}}">
+    <radio value="{{item.option}}" checked="{{item.checked}}" disabled="{{item.disabled}}" />
+    {{item.value}}
+  </label>
+</radio-group>
+<!-- 菜单栏 -->
+<view class='buttons'>
+  <!-- <view wx:if='{{index}}'>
+    <van-button plain hairline type="info" class='lastBut' bindtap='lastClick'>上一题</van-button>
+  </view> -->
+  <view class='ksButton'>
+    <van-button type="info" class='keepBut'>保存</van-button>
+    <van-button type="info" class='submitBut' bindtap='submit'>交卷</van-button>
+  </view>
+  <view wx:if='{{showNextBut}}'>
+    <van-button plain hairline type="info" class='nextBut' bindtap='nextClick'>下一题</van-button>
+  </view>
+</view>

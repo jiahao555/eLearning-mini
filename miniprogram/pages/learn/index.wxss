@@ -1,0 +1,46 @@
+/* miniprogram/pages/learn/index.wxss */
+.collapse-item{
+  position: relative;
+}
+/* .connectorUp{
+  border: 0.5rpx solid #2e5e86;
+  width:0rpx;
+  height: 29rpx;
+  position: absolute;
+  left: 45rpx;
+  top: 0rpx;
+}
+.connectorDown{
+  border: 0.5rpx solid #2e5e86;
+  width:0rpx;
+  height: 60rpx;
+  position: absolute;
+  left: 45rpx;
+  top: 56rpx;
+} */
+/* .connectUp{
+  border: 0.5rpx solid #2e5e86;
+  width:0rpx;
+  height: 25rpx;
+  position: absolute;
+  left: 30rpx;
+  top: 0rpx;
+  z-index: 2;
+}
+.connectDown{
+  border: 0.5rpx solid #2e5e86;
+  width:0rpx;
+  height: 63rpx;
+  position: absolute;
+  left: 30rpx;
+  top: 45rpx;
+  z-index: 2;
+} */
+/* .oneVideo{
+  position: relative;
+  z-index: 1;
+} */
+/* .oneChapterVideo{
+  position: relative;
+  left: -15rpx;
+} */

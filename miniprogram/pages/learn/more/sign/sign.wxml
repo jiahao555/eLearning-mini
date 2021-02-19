@@ -1,0 +1,19 @@
+<!--miniprogram/pages/learn/more/sign/sign.wxml-->
+<van-cell
+  title="当前课时："
+  value="第{{classNum}}次课{{date}}"
+  icon="todo-list-o"
+/>
+<view wx:if="{{signing}}">
+  <view class='signBlock'>
+  <view class='singButton' bindtap='signClick'>
+    <text>签到</text>
+  </view>
+  </view>
+</view>
+<view wx:else>
+  <view class='container'>
+    <view>已停止签到</view>
+  </view>
+</view>
+

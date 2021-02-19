@@ -1,0 +1,7 @@
+    {
+      "usingComponents": {
+        "i-row": "vant-weapp/dist/row/index",
+        "i-col": "vant-weapp/dist/col/index",
+        "i-button": "vant-weapp/dist/button/index"
+      }
+    }

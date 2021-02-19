@@ -1,0 +1,64 @@
+<!--miniprogram/pages/ask/onepost.wxml-->
+<view class='onePost'>
+  <view class='header'>
+    <view class='userInfo'>
+      <view class='avatar'>
+        <image mode="aspectFill" src='{{postInfo.avatar}}'></image>
+      </view>
+      <view class='nickname'>
+        <text>{{postInfo.username}}</text>
+      </view>
+    </view>
+    <view class='share'>
+          <view class='time'>
+            <text>{{postInfo.time}}</text>
+          </view>
+          <image src='/miniprogram/images/share.png' class='btns ml40'></image>
+    </view>
+  </view>
+  <view class='content'>
+    <view class='title'>
+      <text>{{postInfo.title}}</text>
+    </view>
+    <view class='con'>
+      <text>{{postInfo.content}}</text>
+    </view>
+    <view class='contentPic' wx:if='{{imgUrl}}'>
+      <view class='contentpic'>
+        <image mode="aspectFill" src='{{postInfo.image}}'></image>
+      </view>
+    </view>
+  </view>
+</view>
+<!-- 回复 -->
+<view class='onePost' wx:for="{{respond}}">
+  <view class='header'>
+    <view class='userInfo'>
+      <view class='avatar'>
+        <image mode="aspectFill" src='{{item.avatar}}'></image>
+      </view>
+      <view class='nickname'>
+        <text>{{item.username}}</text>
+      </view>
+    </view>
+    <view class='share'>
+          <view class='time'>
+            <text>{{item.time}}</text>
+          </view>
+          <image src='/miniprogram/images/zan.png' class='btns ml40'></image>
+          <text class='ml10'>{{item.zanNum}}</text>
+    </view>
+  </view>
+  <view class='content'>
+    <view class='con'>
+      <text>{{item.content}}</text>
+    </view>
+    <view class='contentPic' wx:if='{{item.image[0]}}'>
+      <image mode="aspectFill" src='{{item.image}}'></image>
+    </view>
+  </view>
+</view>
+<!-- 回复键 -->
+<navigator url='../respond/respond?id={{postId}}' class='posiFix'>
+  <image src='/miniprogram/images/brush_fill.png' class='addIcon' > </image>
+</navigator>

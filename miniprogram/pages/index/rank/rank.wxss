@@ -1,0 +1,2 @@
+/* miniprogram/pages/index/rank/rank.wxss */
+@import "../../onlineTest/onlineTest.wxss";

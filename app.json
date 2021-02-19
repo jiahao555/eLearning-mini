@@ -1,0 +1,78 @@
+{
+  "pages": [
+    "miniprogram/pages/index/index",
+    "miniprogram/pages/index/misCollection/misCollection",
+    "miniprogram/pages/index/misAnalysis/misAnalysis",
+    "miniprogram/pages/index/rank/rank",
+    "miniprogram/pages/index/rankList/rankList",
+    "miniprogram/pages/onlineTest/onlineTest",
+    "miniprogram/pages/onlineTest/answerInfo/answerInfo",
+    "miniprogram/pages/onlineTest/answer/answer",
+    "miniprogram/pages/onlineTest/score/score",
+    "miniprogram/pages/onlineTest/analysis/analysis",
+    "miniprogram/pages/lab/lab",
+    "miniprogram/pages/askask/askask",
+    "miniprogram/pages/askask/onepost/onepost",
+    "miniprogram/pages/askask/publish/publish",
+    "miniprogram/pages/askask/respond/respond",
+    "miniprogram/pages/learn/index",
+    "miniprogram/pages/learn/more/record/record",
+    "miniprogram/pages/learn/more/notices/notices",
+    "miniprogram/pages/learn/more/sign/sign",
+    "miniprogram/pages/learn/more/releaseSign/releaseSign",
+    "miniprogram/pages/learn/more/signedList/signedList",
+    "miniprogram/pages/learn/learn",
+    "miniprogram/pages/learn/homework/homework",
+    "miniprogram/pages/learn/ppt/ppt",
+    "miniprogram/pages/learn/videolist/videolist",
+    "miniprogram/pages/learn/videolist/video/video"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于与教师位置对比以签到"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#2e5e86",
+    "navigationBarTitleText": "模电课堂",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#666"
+  },
+  "tabBar": {
+    "selectedColor": "#2e5e86",
+    "list": [
+      {
+        "pagePath": "miniprogram/pages/learn/index",
+        "text": "我的课堂",
+        "iconPath": "miniprogram/images/video.png",
+        "selectedIconPath": "miniprogram/images/video.png"
+      },
+      {
+        "pagePath": "miniprogram/pages/lab/lab",
+        "text": "实验指导",
+        "iconPath": "miniprogram/images/lab.png",
+        "selectedIconPath": "miniprogram/images/lab.png"
+      },
+      {
+        "pagePath": "miniprogram/pages/onlineTest/onlineTest",
+        "text": "在线测试",
+        "iconPath": "miniprogram/images/test.png",
+        "selectedIconPath": "miniprogram/images/test.png"
+      },
+      {
+        "pagePath": "miniprogram/pages/askask/askask",
+        "text": "问问",
+        "iconPath": "miniprogram/images/hub.png",
+        "selectedIconPath": "miniprogram/images/hub.png"
+      },
+      {
+        "pagePath": "miniprogram/pages/index/index",
+        "text": "个人中心",
+        "iconPath": "miniprogram/images/house1.png",
+        "selectedIconPath": "miniprogram/images/house1.png"
+      }
+    ]
+  }
+}

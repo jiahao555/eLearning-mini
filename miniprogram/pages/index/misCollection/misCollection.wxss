@@ -1,0 +1,2 @@
+/* miniprogram/pages/index/misCollection/misCollection.wxss */
+@import "../../onlineTest/onlineTest.wxss";

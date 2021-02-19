@@ -1,0 +1,14 @@
+<!--miniprogram/pages/ask/respond.wxml-->
+<view class='publish'>
+  <view class='textIput'>
+    <textarea class='input' bindinput='textInput'  maxlength='500' placeholder='请输入回复问问的内容' auto-focus auto-height></textarea>
+  </view>
+  <view class='picSend'>
+    <image src='/miniprogram/images/pic.png' class='pic' bindtap='doUpload'></image>
+    <view class='pulishBtn' bindtap='pulish'> 发布</view>
+  </view>
+  <view class='flexCenter w100' wx:if='{{imgUrl}}'>
+    <image src='{{imgUrl}}' mode="aspectFit" ></image>
+  </view>
+</view>
+

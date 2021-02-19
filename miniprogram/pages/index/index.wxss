@@ -1,0 +1,32 @@
+/**index.wxss**/
+.userinfo-avatar {
+    width: 128rpx;
+    height: 128rpx;
+    margin-left: 30rpx;
+    margin-top: 30rpx;
+    margin-bottom: 10rpx;
+    margin-right: 20rpx;
+    border-radius: 7%;
+}
+.hint{
+  font-size: 30rpx;
+  color: gray;
+}
+.singIn{
+  position: absolute;
+  top: 200rpx;
+  left: 220rpx;
+}
+.userinfo-nickname{
+  position: relative;
+  bottom: 65rpx;
+  font-size: 35rpx;
+  color: rgb(77, 76, 76);
+}
+.userInfo{
+  width: 100%;
+  /* position: absolute;
+  top: 0rpx;
+  left: 0rpx; */
+  border-bottom: rgb(223, 222, 222) solid 7rpx;
+}

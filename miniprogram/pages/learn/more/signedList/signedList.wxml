@@ -1,0 +1,13 @@
+<!--miniprogram/pages/learn/more/signedList/signedList.wxml-->
+<van-cell-group>
+  <van-cell
+    title="第{{classNum}}次课已签到人数："
+    value="{{Num}}人"
+  />
+</van-cell-group>
+<view wx:for="{{sortArr}}">
+  <view class='oneUser'>
+    <image src='{{item.avatar}}' class='avatar'></image>
+    <text class='nickName'>{{item.nickName}}</text>
+  </view>
+</view>

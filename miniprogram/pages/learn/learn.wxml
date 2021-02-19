@@ -1,0 +1,63 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='button'>
+    <navigator url="videolist/videolist">
+     <image class="image"
+    style="width: 550rpx; height: 300rpx; 
+    mode="scaleToFill" src='../../images/video1.jpg'>
+     </image>
+    </navigator>
+    <navigator url="../videolist/videolist">
+     <item class="text1">
+      <text>视  频</text>
+     </item>
+    </navigator>
+    <view class="cap"></view>
+  </view>
+  
+  <view class='button'>
+    <navigator url="../index/ppt/ppt">
+     <image class="image"
+    style="width: 550rpx; height: 300rpx; 
+    mode="scaleToFill" src='../../images/PPT.jpg'>
+     </image>
+    </navigator>
+    <navigator url="../index/ppt/ppt">
+     <item class="text1">
+      <text>课  件</text>
+     </item>
+    </navigator>
+  </view>
+  <view class="cap"></view> 
+
+  <view class='button'>
+    <navigator url="../index/homework/homework">
+     <image class="image"
+    style="width: 550rpx; height: 300rpx; 
+    mode="scaleToFill" src='../../images/homework.jpg'>
+     </image>
+    </navigator>
+    <navigator url="../index/homework/homework">
+     <item class="text1">
+      <text>作  业</text>
+     </item>
+    </navigator>
+  </view>
+  <view class="cap"></view> 
+
+  <view class='button'>
+    <navigator url="../index/homework/homework">
+     <image class="image"
+    style="width: 550rpx; height: 300rpx; 
+    mode="scaleToFill" src='../../images/answer.jpg'>
+     </image>
+    </navigator>
+    <navigator url="../index/homework/homework">
+     <item class="text1">
+      <text>答  案</text>
+     </item>
+    </navigator>
+  </view>
+  <view class="cap"></view> 
+
+</view>

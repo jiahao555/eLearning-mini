@@ -1,0 +1,15 @@
+/* miniprogram/pages/onlineTest/analysis/analysis.wxss */
+@import "../answer/answer.wxss";
+.answer{
+  padding:26rpx;
+  border-top: #717171 solid 1rpx;
+}
+.answerTitle{
+  color: #717171;
+  font-size: 32rpx;
+  margin-bottom: 26rpx;
+}
+.answerContent{
+  font-size: 32rpx;
+  margin-bottom: 26rpx;
+}

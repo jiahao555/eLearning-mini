@@ -1,0 +1,41 @@
+<view class='searchitems'>
+  <view class='input1'>
+  <input bindinput='vnameInput' placeholder='输入课时或标题搜索作业'>搜索视频</input>
+  </view>
+  <view class='button1'>
+  <button bindtap='searchClick'>搜索</button>
+  </view>
+</view>
+<view class="namelist" id="abc">
+  <navigator url='../video/video'>
+  <text>1-绪论</text>
+  </navigator>
+  <navigator url='../video/video'>
+  <text>2-半导体二极管和三极管</text>
+  </navigator>
+  <navigator url='../video/video'>
+  <text>3-基本放大电路</text>
+  </navigator>
+  <navigator url='../video/video'>
+  <text>4-绪论</text>
+  </navigator>
+  <navigator url='../video/video'>
+  <text>5-半导体二极管和三极管</text>
+  </navigator>
+  <navigator url='../video/video'>
+  <text>6-基本放大电路</text>
+  </navigator>
+  <navigator url='../video/video'>
+  <text>7-信号的运算和处理</text>
+  </navigator>
+  <navigator url='../video/video'>
+  <text>8-波形的产生和信号的转换</text>
+  </navigator>
+  <navigator url='../video/video'>
+  <text>9-功率放大电路</text>
+  </navigator>
+  <navigator url='../video/video'>
+  <text>10-直流电源</text>
+  </navigator>
+  <text>11-多功能放大电路</text>
+</view>

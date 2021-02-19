@@ -1,0 +1,11 @@
+/* miniprogram/pages/learn/more/record/record.wxss */
+.progress{
+  margin-top: 50rpx;
+  margin-left:10%;
+  margin-right: 10%; 
+  width: 80%;
+  height: 50rpx;
+}
+.container{
+  border-bottom: rgb(247, 246, 246) 0.5px solid
+}

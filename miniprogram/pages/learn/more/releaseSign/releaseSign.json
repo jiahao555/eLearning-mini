@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "签到管理",
+  "usingComponents": {
+    "van-cell-group": "vant-weapp/dist/cell-group/index",
+    "van-cell": "vant-weapp/dist/cell/index",
+    "van-field": "vant-weapp/dist/field/index",
+    "van-button": "vant-weapp/dist/button/index"
+  }
+}

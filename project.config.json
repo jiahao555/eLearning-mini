@@ -1,0 +1,341 @@
+{
+	"description": "项目配置文件",
+	"cloudfunctionRoot": "cloudfunctionRoot/",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"nodeModules": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.6.1",
+	"appid": "wxbc0e5a89ac70b750",
+	"projectname": "ElectronicLearn",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 41,
+			"list": [
+				{
+					"id": -1,
+					"name": "logi",
+					"pathName": "pages/logs/logs.json",
+					"query": "type=1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "logi",
+					"pathName": "pages/logs/logs",
+					"query": "type=1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "login",
+					"pathName": "pages/login/login",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "test",
+					"pathName": "pages/test/test",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "user",
+					"pathName": "pages/user/user",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "videolist",
+					"pathName": "pages/videolist/videolist",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "lab",
+					"pathName": "pages/lab/lab",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "lab",
+					"pathName": "pages/lab/lab",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "equipment",
+					"pathName": "pages/lab/equipmentuse",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "user",
+					"pathName": "pages/login/user",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "user",
+					"pathName": "pages/login/user",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "BBS",
+					"pathName": "pages/BBS/BBS",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "user2",
+					"pathName": "pages/login/user",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "video",
+					"pathName": "pages/video/video",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "BBS",
+					"pathName": "miniprogram/pages/BBS/BBS",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 15,
+					"name": "video-mode",
+					"pathName": "miniprogram/pages/video/video",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "user_mode",
+					"pathName": "miniprogram/pages/login/user",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 17,
+					"name": "justtest-mode",
+					"pathName": "miniprogram/pages/justtest/justtest",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 18,
+					"name": "ask-mode",
+					"pathName": "miniprogram/pages/ask/ask",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "onepost-mode",
+					"pathName": "miniprogram/pages/ask/onepost",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "publish-mode",
+					"pathName": "miniprogram/pages/ask/publish",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "onepost-mode",
+					"pathName": "miniprogram/pages/ask/onepost",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "test-index_mode",
+					"pathName": "miniprogram/pages/test/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "ask_mode",
+					"pathName": "miniprogram/pages/askask/askask",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "publish_mode",
+					"pathName": "miniprogram/pages/askask/publish/publish",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "respond_mode",
+					"pathName": "miniprogram/pages/askask/respond/respond",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "onepost_mode",
+					"pathName": "miniprogram/pages/askask/onepost/onepost",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "videolist",
+					"pathName": "miniprogram/pages/learn/videolist/videolist",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "onlineTest-mode",
+					"pathName": "miniprogram/pages/onlineTest/onlineTest",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "answerInfo-mode",
+					"pathName": "miniprogram/pages/onlineTest/answerInfo/answerInfo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "answer",
+					"pathName": "miniprogram/pages/onlineTest/answer/answer",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "score",
+					"pathName": "miniprogram/pages/onlineTest/score/score",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 32,
+					"name": "analysis",
+					"pathName": "miniprogram/pages/onlineTest/analysis/analysis",
+					"query": "App.globalData.choosenList=['B','C']",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "learn-index",
+					"pathName": "miniprogram/pages/learn/index",
+					"query": "App.globalData.choosenList=['B','C']",
+					"scene": null
+				},
+				{
+					"id": 34,
+					"name": "record",
+					"pathName": "miniprogram/pages/learn/more/record/record",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "video",
+					"pathName": "miniprogram/pages/learn/videolist/video/video",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 36,
+					"name": "misCollection",
+					"pathName": "miniprogram/pages/index/misCollection/misCollection",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "rank",
+					"pathName": "miniprogram/pages/index/rank/rank",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "rankList",
+					"pathName": "miniprogram/pages/index/rankList/rankList",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "notices",
+					"pathName": "miniprogram/pages/learn/more/notices/notices",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "sign",
+					"pathName": "miniprogram/pages/learn/more/sign/sign",
+					"query": "App.globalData.choosenList=['B','C']",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "releaseSign",
+					"pathName": "miniprogram/pages/learn/more/releaseSign/releaseSign",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

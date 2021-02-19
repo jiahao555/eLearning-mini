@@ -1,0 +1,22 @@
+<!--miniprogram/pages/onlineTest/score/score.wxml-->
+<view class='header'>
+    <view class='score'>
+      <text style='font-size:52rpx;font-weight:bold;'>{{score}}</text>/{{total}}分
+    </view>
+    <view class='statistics'>
+      <view class='word'>
+        <view>击败本站考生</view>
+        <view class="beatNum">{{beatNum}}人次</view>
+      </view>
+      <view class='word'>
+        <view>本站平均分</view>
+        <view class="beatNum">{{average}}分</view>
+      </view>
+    </view>
+  </view>
+<view class='buttoms'>
+  <van-button type="info" round='true' bindtap="viewAnalysis">查看解析</van-button>
+  <!-- <navigator url='../onlineTest'> -->
+    <van-button type="info" round='true' bindtap="backIndex">返回首页</van-button>
+  <!-- </navigator> -->
+</view>

@@ -1,0 +1,24 @@
+/* miniprogram/pages/index/rankList/rankList.wxss */
+.avatar{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+  margin: 20rpx;
+}
+.nickName{
+  color: rgb(77, 76, 76);
+  margin-top:40rpx; 
+  font-size: 35rpx;
+}
+.score{
+  color: red;
+  font-size: 45rpx;
+  margin: 30rpx;
+  margin-top:35rpx; 
+}
+.oneUser{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: rgb(223, 222, 222) solid 3rpx;
+}

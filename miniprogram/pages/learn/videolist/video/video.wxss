@@ -1,0 +1,31 @@
+/* pages/video/video.wxss */
+.page-body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+}
+.comment{
+  position: absolute;
+  left: 70rpx;
+  top: 50rpx
+}
+image{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 50rpx
+}
+.nickname{
+  color: rgb(148, 144, 144);
+  position: absolute;
+  top:10rpx;
+  left: 70rpx;
+  font-size: 35rpx
+}
+.oneComment{
+  position: relative;
+  /* background-color: rebeccapurple; */
+  height: 120rpx;
+}
+.inputComment{
+  border: solid 1px
+}

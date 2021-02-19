@@ -1,0 +1,25 @@
+<!--miniprogram/pages/learn/more/releaseSign/releaseSign.wxml-->
+<van-cell-group>
+  <van-field
+    value="{{ classNum }}"
+    required
+    center
+    clearable
+    label="课时"
+    placeholder="请输入要发布的课时，如“1”"
+    bind:change="commentInput"
+  />
+</van-cell-group>
+
+<view bindtap='checkList'>
+  <van-cell
+    title="查看当前课时已签到名单"
+    icon="orders-o"
+    is-link
+  />
+</view>
+
+<view class='buttons'>
+    <van-button type="info" round bindtap='checkSubmit'>开始签到</van-button>
+    <van-button type="info" round bindtap='endSign'>停止签到</van-button>
+</view>

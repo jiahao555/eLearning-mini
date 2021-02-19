@@ -1,0 +1,105 @@
+<view class='searchitems'>
+  <view class='input1'>
+  <input bindinput='vnameInput' placeholder='输入课时或标题搜索视频'>搜索视频</input>
+  </view>
+  <view class='button1'>
+  <button bindtap='searchClick'>搜索</button>
+  </view>
+</view>
+<view class="namelist" id="abc">
+  <navigator url='video/video'>
+  <text>课时01：绪论</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课时02：半导体二极管和三极管</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课时03：基本放大电路</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课时04：绪论</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课时05：半导体二极管和三极管</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课时06：基本放大电路</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课时07：信号的运算和处理</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课时08：波形的产生和信号的转换</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课时09：功率放大电路</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课时10：直流电源</text>
+  </navigator>
+  <text>课时11：多功能放大电路</text>
+  <navigator url='video/video'>
+  <text>课时12：晶体管的放大原理</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课时13：晶体三极管的输入输出特性</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课时14：晶体三极管的三个工作区域</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课时15：晶体三极管的主要参数</text>
+  </navigator>
+  <text>课程16：放大的概念</text>
+  <navigator url='video/video'>
+  <text>课程17：放大电路的性能指标</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课程18：基本共射放大电路的组成</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课程19：基本共射放大电路的波形</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课程20：放大电路的组成原则</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课程21：直流通路和交流通路</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课程22：放大电路的分析方法</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课程23：图解法于放大电路失真分析</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课程24：直流负载线和交流负载线</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课程25：放大电路的等效模型</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课程26：晶体管的h参数</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课程27：共射放大电路的分析</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课程28：选用合适方法分析电路</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课程29：放大电路中静态与动态</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课程30：典型的静态工作电路</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课程31：静态工作点的稳定</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课程32：稳定静态工作点的方法</text>
+  </navigator>
+  <navigator url='video/video'>
+  <text>课程33：基本共集放大电路</text>
+  </navigator>
+</view>

@@ -1,0 +1,45 @@
+<!--index.wxml-->
+<view class='container'>
+  <block wx:if="{{!hasUserInfo}}">
+    <view class="singIn">
+      <van-button round="true" type="info" size="large" open-type="getUserInfo" bindgetuserinfo="getUserInfo">登录</van-button>
+      <!-- <button open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 登录 </button> -->
+      <view class="hint">授权后才可使用全部功能</view>
+    </view>
+  </block>
+  <block wx:else>
+      <view class='userInfo'>
+        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      </view>
+      <!-- 菜单 -->
+      <van-cell-group>
+        <van-cell
+          title="错题集"
+          icon="close"
+          is-link
+          url="misCollection/misCollection"
+        />
+        <van-cell
+          title="在线测试排行榜"
+          icon="flag-o"
+          is-link
+          url="rank/rank"
+        />
+        <view class='icourses' bindtap='icoursesClick'>
+        <van-cell
+          title="我的课堂"
+          icon="tv-o"
+          is-link
+        />
+        </view>
+        <van-cell
+          title="学习记录"
+          icon="chart-trending-o"
+          is-link
+          url="../learn/more/record/record"
+        />
+      </van-cell-group>
+  </block>
+</view>
+

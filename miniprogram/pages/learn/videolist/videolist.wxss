@@ -1,0 +1,26 @@
+/* pages/videolist/videolist.wxss */
+.searchitems{
+  position: relative
+}
+
+.namelist{
+  position: absolute;
+    left: 80rpx;
+      top: 150rpx;
+      }
+
+      
+
+.namelist{
+  position: absolute;
+  left: 80rpx;
+  top: 150rpx;
+}
+
+.input1{
+  border:1px solid black;
+}
+
+text{
+  margin: 10px;
+}

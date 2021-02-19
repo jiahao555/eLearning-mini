@@ -1,0 +1,40 @@
+<!--miniprogram/pages/ask/ask.wxml-->
+  <view class='onePost' wx:for="{{posts}}" wx:key="_id">
+    <navigator url='../askask/onepost/onepost?id={{item._id}}'>
+    <view class='header'>
+      <view class='userInfo'>
+        <view class='avatar'>
+        <image mode="aspectFill" src='{{item.avatar}}'></image>
+        </view>
+        <view class='nickname'>
+        <text>{{item.username}}</text>
+        </view>
+      </view>
+      <view class='time'>
+        <text>{{item.time}}</text>
+      </view>
+    </view>
+    <view class='content'>
+      <view class='title'>
+        <text>{{item.title}}</text>
+      </view>
+      <view class='con'>
+        <text>{{item.content}}</text>
+      </view>
+    </view>
+    <view class='comment' bindtap='nav2Detail'  data-id='{{item.id}}'>
+      <image src='../../images/comment.png' class='btns ml40'></image> 
+      <text class='ml10'>{{item.commentNum}}</text>
+    </view>
+    </navigator>
+  </view>
+<!-- 发帖键 -->
+<navigator url='publish/publish' class='posiFix'>
+  <image src='../../images/add.png' class='addIcon' > </image>
+</navigator>
+
+
+
+
+
+

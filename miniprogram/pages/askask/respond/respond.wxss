@@ -1,0 +1,2 @@
+/* miniprogram/pages/ask/respond.wxss */
+@import '../publish/publish.wxss';

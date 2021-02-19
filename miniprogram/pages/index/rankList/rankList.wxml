@@ -1,0 +1,8 @@
+<!--miniprogram/pages/index/rankList/rankList.wxml-->
+<view wx:for="{{sortArr}}">
+  <view class='oneUser'>
+    <image src='{{item.avatar}}' class='avatar'></image>
+    <text class='nickName'>{{item.nickName}}</text>
+    <text class='score'>{{item.score}}</text>
+  </view>
+</view>

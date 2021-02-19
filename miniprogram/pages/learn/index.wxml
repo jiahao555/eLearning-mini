@@ -1,0 +1,118 @@
+<!--miniprogram/pages/learn/index.wxml-->
+<!-- //滑动通知栏 -->
+<van-notice-bar
+  left-icon="cloud://celestial-928fcf.6365-celestial-928fcf/loudspeaker1.png"
+  text="{{notices}}"
+/>
+<van-tabs sticky animated color='#ed6a0c'>
+  <van-tab title="章节">
+    <!-- collapseOnChange触发函数用来记录是否折叠，不能删 -->
+      <van-collapse value="{{ activeNames }}" bind:change="collapseOnChange">
+        <view wx:for='{{courses}}' wx:for-index="chapterId">
+          <van-collapse-item title="{{item.chapterName}}" name="{{item.index}}" icon="circle" class="collapse-item">
+          <!-- 上树形图连接线 -->
+          <!-- <view class="connectorUp"></view> -->
+          <!-- 下树形图连接线 -->
+          <!-- <view class="connectorDown"></view> -->
+              <!-- 一章的视频 -->
+              <view class='oneChapterVideo'>
+                <view wx:for='{{sections}}' wx:for-item="sect" wx:for-index="idx">
+                  <view wx:if="{{sect.chapter==chapterId+1}}">
+                      <!-- 一节的视频 -->
+                      <view class='oneVideo'>
+                        <!-- 树形学习图的连接线 -->
+                        <!-- <view class="connectUp"></view> -->
+                        <!-- 视频cell-->
+                        <navigator url='videolist/video/video'>
+                          <!-- 判断是否看过该节视频 -->
+                          <view wx:if="{{idx<=viewedId}}">
+                            <van-steps
+                            steps="{{ sect.steps }}"
+                            active="{{ 0 }}"
+                            direction="vertical"
+                            active-color="#2e5e86"
+                            />
+                          </view>
+                          <view wx:else>
+                            <van-steps
+                            steps="{{ sect.steps }}"
+                            active="{{ -1 }}"
+                            direction="vertical"
+                            active-color="#2e5e86"
+                            />
+                          </view>
+                        </navigator>
+                        <!-- 树形学习图的连接线 -->
+                        <!-- <view class="connectDown"></view> -->
+                      </view>
+                  </view>
+                </view> 
+              </view>
+          </van-collapse-item>
+        </view>
+      </van-collapse>
+  </van-tab>
+  <van-tab title="更多">
+    <van-cell-group>
+      <van-cell
+        title="学习记录"
+        icon="chart-trending-o"
+        is-link
+        url="more/record/record"
+      />
+      <van-cell
+        title="签到"
+        icon="edit"
+        is-link
+        url="more/sign/sign"
+      />
+      <van-cell
+        title="签到管理（教师功能）"
+        icon="notes-o"
+        is-link
+        bind:click="poSignClick"
+      />
+      <van-cell
+        title="发布通知（教师功能）"
+        icon="bullhorn-o"
+        is-link
+        bind:click="noticesClick"
+      />
+      <!-- 发布通知前的dialog -->
+      <van-dialog
+        use-slot
+        show="{{ show }}"
+        show-cancel-button
+      >
+      <!-- 注意：按确认键没用，输完密码按键盘的enter -->
+      <van-field
+        value="{{ password }}"
+        type="password"
+        label="后台密码"
+        bind:confirm="confirm"
+        :border="false"
+        placeholder="请输入后台密码"
+      />
+      </van-dialog>
+
+      <!-- 发布签到前的dialog -->
+      <van-dialog
+        use-slot
+        show="{{ show1 }}"
+        show-cancel-button
+      >
+      <!-- 注意：按确认键没用，输完密码按键盘的enter -->
+      <van-field
+        value="{{ password }}"
+        type="password"
+        label="后台密码"
+        bind:confirm="confirm1"
+        :border="false"
+        placeholder="请输入后台密码"
+      />
+      </van-dialog>
+</van-cell-group>
+  </van-tab>
+</van-tabs>
+
+

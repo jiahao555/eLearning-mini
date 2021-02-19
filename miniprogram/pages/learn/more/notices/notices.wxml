@@ -1,0 +1,16 @@
+<!--miniprogram/pages/learn/more/notices/notices.wxml-->
+<van-cell-group>
+  <van-field
+    value="{{ comment }}"
+    clearable
+    placeholder="请输入要发布的通知内容"
+    border="{{ false }}"
+    type="textarea"
+    autosize
+    left-icon="bullhorn-o"
+    bind:change="commentInput"
+    use-button-slot
+  >
+    <van-button slot="button" size="small" type="info" bindtap='checkSubmit'>发布</van-button>
+  </van-field>
+</van-cell-group>

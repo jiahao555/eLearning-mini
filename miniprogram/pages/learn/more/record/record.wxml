@@ -1,0 +1,11 @@
+<!--miniprogram/pages/learn/more/record/record.wxml-->
+<van-cell title="章节任务点完成进度" value="完成数：5">
+</van-cell>
+<view class='container'>
+  <view class='progress'>
+    <van-progress
+      color="#2e5e86"
+      percentage="25"
+    />
+  </view>
+</view>

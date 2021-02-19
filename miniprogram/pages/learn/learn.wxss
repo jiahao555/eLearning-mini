@@ -1,0 +1,30 @@
+.container {
+   display: flex; 
+}
+
+.cap{
+  height: 30rpx;
+  width: 20rpx;
+}
+
+.image{
+  border-radius: 5%;
+}
+
+.button{
+  position: relative;
+}
+
+.text1{
+  color: white;
+  font-weight: 10rpx;
+  font-size: 100rpx;
+  position: absolute;
+  top: 100rpx;
+  left: 150rpx;
+}
+
+
+
+
+

@@ -1,0 +1,44 @@
+/* miniprogram/pages/onlineTest/answer/answer.wxss */
+.question{
+  margin: 15rpx;
+}
+.i-tags{
+  position: relative;
+  top:-4rpx;
+}
+.question-title {
+  margin-left: 8px;
+  line-height: 25px;
+}
+.radio-group{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 20rpx;
+}
+.radio {
+    padding: 5px;
+    width: 100%;
+}
+.buttons{
+  width: 100%;
+  justify-content: center;
+}
+.keepBut{
+  border:#fff solid 1rpx;
+}
+.lastBut{
+  position: absolute;
+  bottom: 0rpx;
+  left: 0rpx;
+}
+.nextBut{
+  position: absolute;
+  bottom: 0rpx;
+  right: 0rpx;
+}
+.ksButton{
+  position: absolute;
+  bottom: 0rpx;
+  left: 260rpx;
+}

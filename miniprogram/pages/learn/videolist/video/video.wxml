@@ -1,0 +1,69 @@
+<!-- <txv-video vid="w0531tnq9t3" playerid="txv1"></txv-video> -->
+<van-tabs active="{{ active }}" bind:change="onChange" color="#2e5e86">
+  <!-- 视频部分 -->
+  <van-tab title="视频">
+  <view class="page-body">
+  <view class="page-section tc">
+    <video id="myVideo" src="cloud://celestial-928fcf.6365-celestial-928fcf/162.课时162：EDA应用4-基本共射放大电路的电压传输特性(Av23080095,P162).Mp4" binderror="videoErrorCallback" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+
+    <view class="weui-cells">
+      <view class="weui-cell weui-cell_input">
+        <view class="weui-cell__hd">
+          <view class="weui-label">弹幕内容</view>
+        </view>
+        <view class="weui-cell__bd">
+          <input bindblur="bindInputBlur" class="weui-input" type="text" placeholder="在此处输入弹幕内容" />
+        </view>
+      </view>
+    </view>
+    <view class="btn-area">
+      <button bindtap="bindSendDanmu" class="page-body-button" type="primary" formType="submit">发送弹幕</button>
+    </view>
+  </view>
+</view>
+
+<!-- 评论输入区 -->
+<!-- <view class="inputComment">
+  <input type='text' bindinput="commentInput" value='{{form_info}}' placeholder='在此处输入视频评论'></input>
+</view>
+<button  type="primary" formType="submit" bindtap='checkSubmit'>发表评论</button>
+<button bindtap='checkUserinfo'>删除</button> -->
+
+<!-- 新的评论输入区 -->
+<van-cell-group>
+  <van-field
+    value="{{ form_info }}"
+    label="留言"
+    type="textarea"
+    placeholder="请输入留言"
+    bind:input="commentInput"
+    autosize
+    border="{{ false }}"
+    use-button-slot
+  >
+    <van-button slot="button" size="small" type="info" bind:click='checkSubmit'>发表</van-button>
+  </van-field>
+</van-cell-group>
+<!-- 评论区 -->
+<block wx:for="{{comments}}" wx:key="{{_id}}">
+<view class='oneComment'>
+  <image mode="aspectFill" src='{{item.avatar}}'></image>
+  <view class='nickname'>
+  <text>{{item.nickName}}</text>
+  </view>
+  <view class='comment'>
+  <text>{{item.oneComment}}</text>
+  </view>
+</view>
+</block>
+  </van-tab>
+  <!-- 课件部分 -->
+  <van-tab title="课件">内容 2</van-tab>
+  <!-- 作业部分 -->
+  <van-tab title="作业">内容 3</van-tab>
+</van-tabs>
+
+
+
+
+

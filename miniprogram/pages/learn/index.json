@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "我的课堂",
+  "usingComponents": {
+    "van-steps": "vant-weapp/dist/steps/index",
+    "van-notice-bar": "vant-weapp/dist/notice-bar/index",
+    "van-tab": "vant-weapp/dist/tab/index",
+    "van-tabs": "vant-weapp/dist/tabs/index",
+    "van-collapse": "vant-weapp/dist/collapse/index",
+    "van-collapse-item": "vant-weapp/dist/collapse-item/index",
+    "van-cell": "vant-weapp/dist/cell/index",
+    "van-cell-group": "vant-weapp/dist/cell-group/index",
+    "van-dialog": "vant-weapp/dist/dialog/index",
+    "van-field": "vant-weapp/dist/field/index"
+  }
+}

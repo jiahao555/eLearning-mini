@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "答题记录",
+  "usingComponents": {
+    "i-tag": "vant-weapp/dist/tag/index",
+    "van-button": "vant-weapp/dist/button/index"
+  }
+}

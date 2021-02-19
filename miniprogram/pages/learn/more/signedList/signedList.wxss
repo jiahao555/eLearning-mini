@@ -1,0 +1,23 @@
+/* miniprogram/pages/learn/more/signedList/signedList.wxss */
+/* @import "../../../index/rankList/rankList.wxss";
+.nickName{
+  margin-left: 30rpx;
+} */
+.avatar{
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+  margin: 20rpx;
+}
+.nickName{
+  color: rgb(77, 76, 76);
+  margin-top:40rpx; 
+  margin-right: 30rpx;
+  font-size: 35rpx;
+}
+.oneUser{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: rgb(223, 222, 222) solid 3rpx;
+}

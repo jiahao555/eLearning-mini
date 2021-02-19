@@ -1,0 +1,12 @@
+/* pages/videolist/videolist.wxss */
+.namelist{
+  position: absolute;
+  left: 80rpx;
+  top: 150rpx;
+  /* display: flex;
+  align-items: start; */
+}
+
+.input1{
+  border:1px solid black;
+}

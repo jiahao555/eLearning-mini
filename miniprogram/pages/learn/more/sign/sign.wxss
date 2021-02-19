@@ -1,0 +1,26 @@
+/* miniprogram/pages/learn/more/sign/sign.wxss */
+.singButton{
+  height: 200rpx;
+  width: 200rpx;
+  background-color: #2e5e86;
+  border-radius: 50%;
+  position: absolute;
+  top: 200rpx;
+  display: flex;
+  justify-content: center;
+}
+.singButton text{
+  color: white;
+  margin-top: 70rpx;
+}
+.signBlock{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 70rpx;
+}
